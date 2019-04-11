@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script language="javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="career">
+        <h1 class="career__title">Carreira Java</h1>
+        <article class="career__card">
+            <div class="career__card-infos">
+                <img src="./icone-java.png" alt="" class="java-icon">
+                <aside class="card-content">
+                    <h3 class="title-class">Java I: Primeiros passos</h3>
+                    <ul class="infos-list">
+                        <li class="infos-list__item">
+                            JVM? JDK? JRE? O que são essas siglas?
+                        </li>
+                        <li class="infos-list__item">
+                            Variáveis de controle de fluxo
+                        </li>
+                        <li class="infos-list__item">
+                            Orientação a objetos e seu código melhorando
+                        </li>
+                        <li class="infos-list__item">
+                            Modificadores de acesso e encapsluamento
+                        </li>
+                        <li class="infos-list__item">
+                            Superando o trauma das arrays
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+
+            <!-- MENU COLAPSADO -->
+            <div class="button-area__collapsed" id="area-collapsed">
+                <input type="button" value="Mais informações" class="button-show" onclick="show()">
+            </div>
+
+            <!-- MENU EXPANDIDO -->
+            <div class="button-area__expanded" id="area-expanded">
+                <ul class="button-area__list">
+                    <li class="button-area__list-item">
+                        <img src="./icone.png" alt="" class="icon-list">
+                        Nível Básico
+                    </li>
+                    <li class="button-area__list-item">
+                        <img src="./icone.png" alt="" class="icon-list">
+                        12 horas para<br>conclusão
+                    </li>
+                    <li class="button-area__list-item">
+                        <img src="./icone.png" alt="" class="icon-list">
+                        110 minutos de<br>vídeo
+                    </li>
+                </ul>
+                <input type="button" value="Menos informações" class="button-hide" onclick="hide()">
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
